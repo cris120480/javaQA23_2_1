@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean registered = true;
         float ticketPrice = 1200.70F;
         float bonusGrade = 20F;
         float bonusBalance = (int)ticketPrice / (int) bonusGrade;
