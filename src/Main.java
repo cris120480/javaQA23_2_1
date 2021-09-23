@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        float ticketPrice = 1200.70F;
+        float ticketPrice = 1290.70F;
         float bonusGrade = 20F;
-        float bonusBalance = (int)ticketPrice / (int) bonusGrade;
+        float bonusBalance = ticketPrice / bonusGrade;
 
            System.out.println(bonusBalance);
     }
